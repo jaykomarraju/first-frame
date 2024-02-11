@@ -26,7 +26,7 @@ const frameMetadata = getFrameMetadata({
   ],
   // Example to set the first image, adjust as needed
   image: images[0].url, 
-  postUrl: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
+  postUrl: `https://${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
 export const metadata: Metadata = {
